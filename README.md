@@ -1,4 +1,6 @@
-# Push_Swap-42-cursus
+# Push_Swap
+
+## About project: 
 
 Sort a random list of integers using the smallest number of moves, 2 stacks and a limited set of operations. 
 
@@ -23,3 +25,16 @@ Only these moves are allowed:
 |rrr | rra and rrb at the same time|
 
 At the end, stack b must empty empty and all integers must be in stack a, sorted in ascending order. 
+
+## Index: 
+
+## Installation:
+```
+$ git clone git@github.com:Anastasiia-Ni/Push_Swap-42.git
+$ cd Push_Swap-42
+$ make
+```
+
+## Usage:
+
+- `./push_swap arguments`  
