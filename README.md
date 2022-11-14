@@ -44,15 +44,23 @@ arguments - a sequence of non-repeating integers in the range -2147483648 to 214
 
 ## Examples:
 ```
+$>./push_swap 5 8 1
+rra
 $>./push_swap 2 1 3 6 5 8
-sa
+rra
+rra
 pb
 pb
 pb
-sa
+ra
 pa
+rra
 pa
+rra
 pa
+ra
+ra
+ra
 $>./push_swap 0 one 2 3
 Error
 $>
