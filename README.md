@@ -2,10 +2,11 @@
 
 ## About project: 
 
-Sort a random list of integers using the smallest number of moves, 2 stacks and a limited set of operations. 
+The push_swap is a simple and effective algorithm project.
 
+The main goal is to sort a random list of integers using the smallest number of moves, 2 stacks and a limited set of operations. 
 
-You start with two empty stacks: a and b. You are given a random list of integers via command line arguments. 
+It starts with two empty stacks: a and b. You are given a random list of integers via command line arguments. 
 
 
 Only these moves are allowed:
@@ -38,3 +39,21 @@ $ make
 ## Usage:
 
 - `./push_swap arguments`  
+
+arguments - a sequence of non-repeating integers in the range -2147483648 to 2147483647.
+
+## Examples:
+```
+$>./push_swap 2 1 3 6 5 8
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+$>./push_swap 0 one 2 3
+Error
+$>
+```
